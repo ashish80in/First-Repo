@@ -1,0 +1,86 @@
+# ========================lambda==================================
+# volume=lambda length,width,volume:length*width*volume
+# print(volume(5,6,7))
+ 
+# ===============================================================
+
+# num=lambda x:x%2==0
+# print(num(3))
+
+# ===============================================================
+
+# st="ashish is a good boy"
+# rev=lambda st:(st[::-1])
+# print(rev(st))
+
+# =========================map====================================
+# num=list(input("enter you string").split(","))
+# print(num)
+# new=list(map(int,num))
+# print(new)
+# ================================================================
+# word=list(input("enter you words for upper case").split(","))
+# print(word)
+# up=list(map(str.upper,word))
+# print(up)
+# ================================================================
+# num=list(map(int,input("enter your numbers").split(",")))
+# print(num)
+
+# squared=list(map(lambda num:num**2,num))
+# print(squared)
+# ====================filter============================================
+# num=list(map(int,input("enter you numbers").split(",")))
+# print(num)
+# squared=list(filter(lambda x:x>0,num))
+# print(squared)
+# ======================================================================
+# words=list((input("enter your words").split(",")))
+# print(words)
+# longer=list(filter(lambda x:len(x)>5,words))
+# print(longer)
+# =======================================================================
+# mixed=list(input("enter the itmmes").split(","))
+# print(mixed)
+# new=list(filter(lambda x:not x.isdigit(),mixed))
+# print(new)
+
+# str=list(input("enter your string").split(","))
+# print(str)
+# convert=list(map(int,str))
+# print(convert)
+
+# num=list(input("enter the words").split(","))
+# print(num)
+# top=list(map(str.upper,num))
+# print(top)
+
+# num=list(map(int,input("enter you numbers").split(",")))
+# print(num)
+# squared=list(map(lambda x:x**2,num))
+# print(squared)
+
+# num=list(input("enter you string and number").split(","))
+# print(num)
+# new=list(filter(lambda x: not x. isdigit(),num))
+# print(new)
+
+
+
+# fruits=["orange","apple","banana"]
+# for i,j in enumerate(fruits,start=1):
+#     print(i,j)
+
+# num=list(input("enter you string and number"))
+# print(num)
+# for i,j in (enumerate(num,start=1)):
+#     print((i,j))
+
+list1=['true','false','false','true']
+for i,j in enumerate(list1,start=1):
+    if j=="true":
+        print(i,j)
+ 
+  
+
+
